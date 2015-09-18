@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'asciidammit/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "asciidammit"
+  spec.name          = "asciidammit2"
   spec.version       = Asciidammit::VERSION
   spec.authors       = ["Forrest Chang"]
   spec.email         = ["fkc_email-ruby@yahoo.com"]
