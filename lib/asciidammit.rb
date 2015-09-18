@@ -425,7 +425,7 @@ module Asciidammit
 
   # from http://redhanded.hobix.com/inspect/closingInOnUnicodeWithJcode.html
   def self.utf_encode( str )
-    String.new str.gsub(/U\+([0-9a-fA-F]{4,4})/u){["#$1".hex ].pack('U*')}
+    str.gsub(/U\+([0-9a-fA-F]{4,4})/u){["#$1".hex ].pack('U*')}
   end
 
 
